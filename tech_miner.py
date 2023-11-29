@@ -1,4 +1,4 @@
-#A major Project on MATHEMATICAL EXPRESSION RECOGNITION AND SOLVING
+#A Project on MATHEMATICAL EXPRESSION RECOGNITION AND SOLVING
 
 from tkinter import *
 from PIL import Image
@@ -26,7 +26,7 @@ def close_window():
     window.destroy()
     exit()
 
-#Create a Exit button
+#Create an Exit button
 Button(window, text="Exit", width=34, command=close_window) .grid(row=7, column=0, sticky=E)
 
 
@@ -159,7 +159,7 @@ def window2(): # new window definition
 
     #Click Function for submit button 1
     def click2():
-        entered_text2 = textentry2.get() #collects the text written in text box
+        entered_text2 = textentry2.get() #collects the text written in the text box
         output.delete(0.0,END)
 
         im2 = Image.open(entered_text2)
@@ -202,7 +202,7 @@ def window2(): # new window definition
 
     def click3():
 
-        entered_text3 = textentry3.get() #collects the text written in text box
+        entered_text3 = textentry3.get() #collects the text written in the text box
         output.delete(0.0,END)
         
         im = Image.open(entered_text3)
